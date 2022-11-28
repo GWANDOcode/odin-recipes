@@ -2,10 +2,10 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 700px;
     margin: auto;
+    background-color: rgba(235, 234, 234, 0.276);
 }
 
 .headline {
-    background-color: rgba(235, 234, 234, 0.276);
     height: 100px;
     margin-top: -50px;
 }
@@ -18,19 +18,20 @@ body {
 
 ul {
     list-style-type: none;
-    margin: 0px;
+    margin: 20px 0px 0px 0px;
     padding: 0;
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
     font-size: 40px;
 }
 
 li {
-    padding: 20px 0px 20px 10px;
-    width: 100%;
-    background-color: rgba(60, 60, 60, 0.854);
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(60, 60, 60, 0.242);
 }
 
 a {
@@ -41,7 +42,7 @@ a {
 #mac_and_cheese:hover,
 #sheet_pan_totchos:hover,
 #long_island_iced_tea:hover {
-    background-color: rgb(118, 118, 118);
+    background-color: rgba(118, 118, 118, 0.606);
 }
 
 #mac_and_cheese a:hover,
