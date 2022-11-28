@@ -1,0 +1,51 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 700px;
+    margin: auto;
+}
+
+.headline {
+    background-color: rgba(235, 234, 234, 0.276);
+    height: 100px;
+    margin-top: -50px;
+}
+
+.headline h1{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 40px;
+}
+
+li {
+    padding: 20px 0px 20px 10px;
+    width: 100%;
+    background-color: rgba(60, 60, 60, 0.854);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#mac_and_cheese:hover,
+#sheet_pan_totchos:hover,
+#long_island_iced_tea:hover {
+    background-color: rgb(118, 118, 118);
+}
+
+#mac_and_cheese a:hover,
+#sheet_pan_totchos a:hover,
+#long_island_iced_tea a:hover  {
+    color: black;
+}
