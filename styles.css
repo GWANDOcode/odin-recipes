@@ -3,11 +3,12 @@ body {
     width: 700px;
     margin: auto;
     background-color: rgba(235, 234, 234, 0.276);
+    font-size: 20px;
 }
 
 .headline {
     height: 100px;
-    margin-top: -50px;
+    margin-top: -30px;
 }
 
 .headline h1{
@@ -18,8 +19,11 @@ body {
 
 ul {
     list-style-type: none;
-    margin: 20px 0px 0px 0px;
     padding: 0;
+}
+
+.navigation ul {
+    margin: 20px 0px 0px 0px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -27,14 +31,14 @@ ul {
     font-size: 40px;
 }
 
-li {
+.navigation li {
     padding: 10px;
     width: 200px;
     height: 200px;
     background-color: rgba(60, 60, 60, 0.242);
 }
 
-a {
+.navigation a {
     text-decoration: none;
     color: white;
 }
@@ -49,4 +53,25 @@ a {
 #sheet_pan_totchos a:hover,
 #long_island_iced_tea a:hover  {
     color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-size: 27px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 23px;
 }
